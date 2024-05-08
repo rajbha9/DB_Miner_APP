@@ -14,20 +14,34 @@ class _SplashState extends State<Splash> {
   void initState() {
     super.initState();
     Timer(const Duration(seconds: 4), () {
-      Get.offAllNamed('/');
+      // Get.offAllNamed('/');
     });
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black12,
       body: Center(
-        child: SizedBox(
-          width: 400,
-          height: 400,
-          child: Column(
-            children: [
+        child: Container(
+          child: Stack(
+            alignment: Alignment.center,
+            children: <Widget>[
               Lottie.asset('asset/json/logo.json'),
+              Positioned(
+                bottom: 0,
+                right: 40,
+                top: 275,
+                child: AnimatedContainer(
+                  duration: Duration(seconds: 3),
+                  height: 200,
+                  width: 350,
+                  child: Image.asset(
+                    'asset/img/quote-logo-png.png',
+                    color: Colors.white,
+                  ),
+                ),
+              )
             ],
           ),
         ),

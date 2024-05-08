@@ -43,6 +43,7 @@ dependencies:
   sqflite:
   path_provider:
   path:
+  flare_flutter:
 
 dev_dependencies:
   flutter_test:

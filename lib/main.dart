@@ -1,3 +1,5 @@
+import 'package:db_miner/views/dateil.dart';
+import 'package:db_miner/views/fev_screen.dart';
 import 'package:db_miner/views/homepage.dart';
 import 'package:db_miner/views/splesh.dart';
 import 'package:flutter/material.dart';
@@ -28,7 +30,10 @@ class _MyAppState extends State<MyApp> {
         GetPage(
           name: '/splash',
           page: () => Splash(),
-        )
+        ),GetPage(
+          name: '/favorite',
+          page: () => FavoritesScreen(),
+        ),
       ],
     );
   }
