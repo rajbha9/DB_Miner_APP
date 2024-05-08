@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
       getPages: [
         GetPage(
           name: '/',
-          page: () => HomePage(),
+          page: () => Homepage(),
         ),
         GetPage(
           name: '/splash',

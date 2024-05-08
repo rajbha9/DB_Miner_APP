@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:flutter/material.dart';
 
@@ -12,8 +13,8 @@ class Splash extends StatefulWidget {
 class _SplashState extends State<Splash> {
   void initState() {
     super.initState();
-    Timer(const Duration(seconds: 3), () {
-      // Navigator.of(context).pushReplacementNamed('/');
+    Timer(const Duration(seconds: 4), () {
+      Get.offAllNamed('/');
     });
   }
 
