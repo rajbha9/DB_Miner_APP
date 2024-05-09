@@ -31,6 +31,8 @@ Contributions are welcome! If you'd like to contribute to DB Miner, please fork 
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
+## Descripsoin
+
 The "DB Miner" project aims to develop a mobile application that helps users manage and explore databases efficiently. It provides tools and features to interact with databases, analyze data, and perform various database-related tasks. The project utilizes several Flutter packages to enhance its functionality:
 
 1. **cupertino_icons (^1.0.2)**:
