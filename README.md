@@ -75,3 +75,10 @@ The "DB Miner" project aims to provide a comprehensive solution for managing and
 - **File System Access**: With the help of `path_provider` and `path` packages, the application can access files and directories on the device's file system.
 
 Overall, the "DB Miner" project aims to streamline database management tasks and provide users with a user-friendly interface for accessing and analyzing their data on mobile devices.
+
+## Screenshots
+
+| Image 1 | Image 2 | Image 3 |
+|---------|---------|---------|
+| <img src="https://github.com/rajbha9/DB_Miner_APP/assets/135328342/3e16bc21-d178-4add-b2b1-deb0ae814db2" width="200" height="400"> | <img src="https://github.com/rajbha9/DB_Miner_APP/assets/135328342/541eb805-3ec9-40bc-a6f3-3da0f3dc9dd3" width="200" height="400"> | <img src="https://github.com/rajbha9/DB_Miner_APP/assets/135328342/0eb10bcb-1087-49b0-878e-3b90d9d65c38" width="200" height="400"> |
+| <img src="https://github.com/rajbha9/DB_Miner_APP/assets/135328342/e7682c69-b323-454c-a0ba-aede27c68212" width="200" height="400"> | <img src="https://github.com/rajbha9/DB_Miner_APP/assets/135328342/cff02e4f-c30e-4fcb-bf22-a07a998f8339" width="200" height="400"> | <img src="https://github.com/rajbha9/DB_Miner_APP/assets/135328342/c1c79365-86bc-4a3e-a0d5-71aed11c6bdd" width="200" height="400"> |
